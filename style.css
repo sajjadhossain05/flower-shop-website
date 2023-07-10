@@ -36,6 +36,7 @@ header {
     padding: 20px 43px;
     background-color: #E55473;
     border: none;
+    cursor: pointer;
 }
 
 /* main featured section */
@@ -172,11 +173,11 @@ header {
     margin: 128px auto;
 }
 
-.instagram-images{
-   display: flex;
-   gap: 20px;
-   justify-content: center;
-   margin-top: 50px;
+.instagram-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .instagram-img {
@@ -184,8 +185,32 @@ header {
     height: 300px;
 }
 
-
-
 .instagram-text {
     text-align: center;
+}
+
+.instagram-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+/* emain-section */
+.btn-section{
+
+background-image: url(Rectangle 9.png);
+
+}
+#email {
+    width: 600px;
+    height: 50px;
 }
