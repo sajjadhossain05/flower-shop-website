@@ -214,7 +214,7 @@ header {
     background-image: url(search-bg.png);
     background-repeat: no-repeat;
     max-width: 1000px;
-    margin: 130px auto;
+    margin: 50px auto;
     padding: 120px;
 }
 
@@ -259,6 +259,44 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-top: 18px;
+}
+
+/* blogs section */
+
+.blogs-section{
+    margin-top: 120px;
+}
+
+
+.blogs{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 30px 330px 80px 330px;
+    border-radius: 10px;
+}
+.blog-title{
+    text-align: center;
+    color: #272727;
+    font-weight: 800px;
+    font-size: 30px;
+
+
+}
+.blogs{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: 17px;
+    padding: 50px 200px;
+
+}
+.blogs-btn{
+    color: #ffffff;
+    background-color: #fd5c7f;
+    padding: 10px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 35px;
 }
 
 /* fotter section */
