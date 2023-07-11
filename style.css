@@ -63,7 +63,6 @@ header {
     height: 420px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    text-decoration: underline;
 }
 
 .featured-1 {
@@ -71,7 +70,6 @@ header {
     height: 420px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    text-decoration: underline;
 }
 
 .featured-2 {
@@ -206,6 +204,54 @@ header {
 }
 
 /* email-section */
+
+.email-box {
+    background-image: url(search-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1150px;
+    margin: 130px auto;
+    padding: 120px;
+}
+
+.email-text {
+    text-align: center;
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid wheat;
+}
+
+.email-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.submit-btn {
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+}
+
+.email-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.email-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+}
 
 /* fotter section */
 
